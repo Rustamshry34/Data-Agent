@@ -15,7 +15,7 @@ import os
 
 
 # 🔑 Set your HF API key
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = "XXXXXXXXXXXXXXXXXX"
 
 
 # ————————————————————————————————
@@ -483,4 +483,5 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
 # Launch
 if __name__ == "__main__":
     demo.launch(share=True)  # Use share=True for public link 
+
     
